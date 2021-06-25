@@ -1,0 +1,71 @@
+header{
+    display: flex;
+    margin: 0;
+    padding:0 ;
+    flex-direction: row-reverse;
+    background-color: black;
+    color: darkgreen;
+    align-items:center;
+    width: 1920px;
+    height: 124px;
+}
+.ty{
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    flex-basis: 200px;
+    color: gainsboro;
+}
+.Text{
+    display: flex;
+    background-color: rgb(2, 2, 2);
+    flex-direction: row;
+}
+a{
+    color: gainsboro;
+}
+p{
+    color: #969696;
+    position: absolute;
+width: 355px;
+height: 16px;
+left: 436px;
+top: 14px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+}
+.telefon{
+    position: absolute;
+width: 1920px;
+height: 44px;
+left: 0px;
+top: 0px;
+background-color: black;
+display: flex;
+}
+.tel{
+    position: absolute;
+left: 8.33%;
+right: 8.17%;
+top: 8.33%;
+bottom: 8.33%;
+padding: 17px;
+margin: 6px 30px 5px 200px;
+}
+main{
+    background-image: url(img/main-backgroung.png);
+    width:1920px ;
+    Height: 810px;
+    Top: 124px;
+}
+.border {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
