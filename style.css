@@ -1,69 +1,53 @@
-header{
-    display: flex;
+* {
     margin: 0;
-    padding:0 ;
-    flex-direction: row-reverse;
-    background-color: black;
-    color: darkgreen;
-    align-items:center;
-    width: 1920px;
-    height: 124px;
+    padding: 0;
 }
-.ty{
-    padding: 20px;
-    margin: 20px;
-    background-color: black;
-    display: flex;
-    flex-direction:column;
-    flex-basis: 200px;
-    color: gainsboro;
-}
-.Text{
-    display: flex;
-    background-color: rgb(2, 2, 2);
-    flex-direction: row;
-}
-a{
-    color: gainsboro;
-}
-p{
-    color: #969696;
-    position: absolute;
-width: 355px;
-height: 16px;
-left: 436px;
-top: 14px;
 
-font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
+header {
+    background-color: black;
+    color: white;
 }
-.telefon{
-    position: absolute;
-width: 1920px;
-height: 44px;
-left: 0px;
-top: 0px;
-background-color: black;
-display: flex;
+
+.header-wrapper {
+    max-width: 1100px;
+    margin: auto;
 }
-.tel{
-    position: absolute;
-left: 8.33%;
-right: 8.17%;
-top: 8.33%;
-bottom: 8.33%;
-padding: 17px;
-margin: 6px 30px 5px 200px;
+
+.top-header {
+    display: flex;
+    height: 44px;
 }
-main{
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone img {
+    height: 14px;
+}
+
+.login {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.login img {
+    height: 14px;
+}
+
+
+
+
+
+main {
     background-image: url(img/main-backgroung.png);
     width:1920px ;
     Height: 810px;
     Top: 124px;
 }
+
 .border {
     display: flex;
     justify-content: center;
